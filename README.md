@@ -34,9 +34,36 @@ duckdb_streamlit_shop/
 │  ├─ olist_order_payments_dataset.csv
 │  ├─ olist_customers_dataset.csv
 │  └─ olist_products_dataset.csv
+```
 ├─ app.py
 ├─ init_db.py
 ├─ test_duckdb.py
 ├─ ecommerce.duckdb
 ├─ requirements.txt
 └─ README.md
+```
+
+## 数据下载与准备
+
+本项目未直接上传原始数据文件到 GitHub，因此在运行项目前，需要先手动准备 `data/` 文件夹中的 CSV 数据。
+
+### 需要准备的文件
+
+请将以下文件放入项目根目录下的 `data/` 文件夹中：
+
+- `olist_orders_dataset.csv`
+- `olist_order_items_dataset.csv`
+- `olist_order_payments_dataset.csv`
+- `olist_customers_dataset.csv`
+- `olist_products_dataset.csv`
+
+### data 文件夹结构示例
+
+```text
+duckdb_streamlit_shop/
+├─ data/
+│  ├─ olist_orders_dataset.csv
+│  ├─ olist_order_items_dataset.csv
+│  ├─ olist_order_payments_dataset.csv
+│  ├─ olist_customers_dataset.csv
+│  └─ olist_products_dataset.csv
